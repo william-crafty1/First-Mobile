@@ -42,41 +42,40 @@ a:visited{
 
 @media screen and (max-width: 768px) {
 
-    .nav {
-        background-color: #551A8B;
-        display: flex;
-        flex-direction: column-reverse;
-        width: 100%;
-    }
-    
-    .nav-text{
-        color: rgba(255,255,255,0.8);
-        flex-direction: column;
-        font-size: x-small;
-        margin: 0;
-    }
-    
-    .header{
-        font-size: x-small;
-        padding-left: 10px;
-        margin: 0;
-
+.nav {
+    background-color: #551A8B;
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
     }
 
-    ul{
-        padding-left: 10px;
-        line-height: 30px;
-        margin-bottom: 5px;
+.nav-text{
+    color: rgba(255,255,255,0.8);
+    flex-direction: column;
+    font-size: x-small;
+    margin: 0;
     }
     
-    a{
-        text-decoration: none;
-        color: rgba(255,255,255,0.8);
+.header{
+    font-size: x-small;
+    padding-left: 10px;
+    margin: 0;
     }
-    
-    a:visited{
-        text-decoration: none;
-        color: rgba(255,255,255,0.8);
+
+ul{
+    padding-left: 10px;
+    line-height: 30px;
+    margin-bottom: 5px;
+    }
+
+a{
+    text-decoration: none;
+    color: rgba(255,255,255,0.8);
+    }
+
+a:visited{
+    text-decoration: none;
+    color: rgba(255,255,255,0.8);
     }
 
 }
